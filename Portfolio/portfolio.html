@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+<body> 
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="heading">I am <br>Saranya</h1>
+            <button class="btn">
+                Hire Me
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="heading1">ABOUT ME</h1>
+        <div id="pic">
+            <img src="photo.jpg" alt="Me">
+            <div id="intro">
+                <h2>Saranya</h2>
+                <p class="para">I am Saranya currently pursuing BTech second year in Electronics and Communication Engineering. I am familiar with Java and Python programming languages. I also have basic knowledge in Machine Learning using Python. I possess skills which include Time Management, Creativity, Thinking out of the box and can organize tasks effectively by collaborating with the team members with efficient communication skills.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="skills">
+        <h1 class="heading2">SKILLS</h1>
+        <div class="gallery">
+            <img src="time-management.png" alt="">
+            <img src="creativity.jpg" alt="">
+            <img src="communication-skills.jpg" alt="">
+            <img src="technical-thinking.jpg" alt="">
+            <img src="organizing-tasks.jpg" alt="">
+            <img src="team-building-activities.png" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="heading3">SERVICES</h1>
+
+        <div class="carousel"
+    data-flickity='{ "lazyLoad": true }'>
+    <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="web_development.jpg" alt="tulip" />
+    </div>
+    <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="python_programmer.png" alt="grapes" />
+    </div>
+    <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      data-flickity-lazyload="machine-learning.jpeg" alt="raspberries" />
+    </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="heading4">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your Name">
+            <input type="email" name="email" class="input" placeholder="Enter your Email ID">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your Message"></textarea>
+            <input type="Submit" value="SEND" id="send">
+        </form>
+    </section>
+    
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
